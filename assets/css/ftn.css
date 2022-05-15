@@ -1,0 +1,116 @@
+/*
+https://github.com/diypa571/ftncolors/blob/main/ftncolors.css
+Diyar Parwana
+For font style, size
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.ftn1{font-size: 8px;}
+.ftn2{font-size: 9px;}
+.ftn3{font-size: 10px;}
+.ftn4{font-size: 11px;}
+.ftn5{font-size: 12px;}
+.ftn6{font-size: 13px;}
+.ftn7{font-size: 14px;}
+.ftn8{font-size: 15px;}
+.ftn9{font-size: 16px;}
+.ftn10{font-size: 17px;}
+.ftn11{font-size: 18px;}
+.ftn12{font-size: 19px;}
+.ftn13{font-size: 20px;}
+.ftn14{font-size: 21px;}
+.ftn15{font-size: 22px;}
+.ftn16{font-size: 23px;}
+.ftn17{font-size: 24px;}
+.ftn18{font-size: 25px;}
+.ftn19{font-size: 26px;}
+.ftn20{font-size: 27px;}
+.ftn21{font-size: 28px;}
+.ftn22{font-size: 29px;}
+.ftn23{font-size: 30px;}
+.ftn24{font-size: 31px;}
+.ftn25{font-size: 32px;}
+.ftn26{font-size: 33px;}
+.ftn27{font-size: 34px;}
+.ftn28{font-size: 35px;}
+.ftn29{font-size: 36px;}
+.ftn30{font-size: 37px;}
+.ftn31{font-size: 38px;}
+.ftn32{font-size: 39px;}
+.ftn33{font-size: 40px;}
+.ftn34{font-size: 41px;}
+.ftn35{font-size: 42px;}
+.ftn36{font-size: 43px;}
+.ftn37{font-size: 44px;}
+.ftn38{font-size: 45px;}
+.ftn39{font-size: 47px;}
+.ftn40{font-size: 45px;}
+.ftn41{font-size: 50px;}
+
+.ftnh1{LINE-HEIGHT: 1px;}
+.ftnh2{line-height: 20px;}
+.ftnh3{line-height: 20px;}
+.ftnh4{line-height: 20px;;}
+.ftnh5{LINE-HEIGHT: 35px;}
+.ftnh6{line-height: 50px;}
+.ftnh7{line-height: 200%;}
+/* font-family: 'Fjalla One', sans-serif;  */
+
+.ftn {
+
+text-decoration:none; font-family: 'Open Sans', sans-serif;
+}
+.ftn a:link {
+text-decoration:none;  font-family: 'Open Sans', sans-serif;
+}
+
+.ftn a:hover {
+text-decoration:none; font-family: 'Open Sans', sans-serif;
+}
+.ftn a:visited {
+text-decoration:none; font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* FÃƒÂ¶r lÃƒÂ¤nkar */
+a:link {
+text-decoration:none;
+}
+a:visited {
+text-decoration:none;
+}
+a:hover {
+
+}
+
+.strong {
+ font-weight: bold;
+}
+
+
+
+
+
+.bgfblack {background-color:#000000;}
+.bgfwhite {background-color:#FFFFFF;}
+.bgfred {background-color:#f13b3b;}
+.bgfgreen {background-color:#2A9F55;}
+.bgfblue {background-color:#025193;}
+.bgfbrown {background-color:#D47F00;}
+.bgfiyellow {background-color:#FC3;}
+.bgfgrey {background-color:#e5e4e2;}
+.bgfgrey1 {background-color:#f5f5f5;}
+
+
+
+.fblack {color:#000000;}
+.fwhite {color:#FFFBF0;}
+.fred {color:#f13b3b;}
+.fgreen {color:#2A9F55;}
+.fblue {color:#025193;}
+.fbrown {color:#D47F00;}
+.fiyellow {color:#FC3;}
+.fgrey {color:#AA9FAA;}

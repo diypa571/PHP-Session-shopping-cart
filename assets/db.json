@@ -1,0 +1,28 @@
+{
+    "products": [
+    {
+        "name": "Tesla X",
+        "price": 780000,
+        "currency": "KR",
+        "imgurl": "img/teslawhite.jpg"
+    },
+    {
+        "name": "Nissan",
+        "price": 970000,
+        "currency": "KR",
+        "imgurl": "img/nissan.jpg"
+    },
+    {
+        "name": "Tesla Dark",
+        "price": 1680000,
+        "currency": "KR",
+        "imgurl": "img/tesladark.jpg"
+    },
+    {
+        "name": "Tesla Red",
+        "price": 900000,
+        "currency": "KR",
+        "imgurl": "img/tesladark.jpg"
+    }
+    ]
+}
