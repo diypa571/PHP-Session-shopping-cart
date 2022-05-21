@@ -2,7 +2,7 @@
 session_start();
 $_SESSION['cart'] = $_SESSION['cart'] ?? [];
 
-include("config.php"); // Klassen inkluderas
+include("models/config.php"); // Klassen inkluderas
 $objProducts = new Products(); // Ett objekt skapas
 $products = $objProducts->getData()['products'];
 
@@ -12,7 +12,7 @@ if (isset($_POST['remove'])) {
 $objProducts->deleteCart();
 }
 
-
+ 
 
 ?>
 
@@ -61,7 +61,7 @@ $varTotolt += $amount * $product['price'];
 <div class="card-body">
 <div class="row">
 <div class="col-6">
-<img src="assets/<?php echo $product['imgurl'] ?>" class="card-img-top">
+<img src="assets/<?php echo $product['image_path'] ?>" class="card-img-top">
 <h5 class="card-title"><?php echo $product['name'] ?></h5>
 </div>
 <div class="col-6">
@@ -112,10 +112,16 @@ echo "Total price to pay: " . $varTotolt . " kr" ;
 
 
 
+
+
+
+
 <?php } else { ?>
 
 
-  <section class="container text-center">
+
+
+  <section class="container text-center"
 <h1><a href="index.php">You have no orders yet!!!!</a></h1>
   </div>
   </section>
